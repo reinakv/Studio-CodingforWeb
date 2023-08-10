@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script src=""></script>
+    <title>Day 3 Exercise 2</title>
+</head>
+<body>
+    <div class="header">
+        <h1>Studio - Coding for Web </h1>
+    </div>
+
+    <h2>Day 3 Exercise 2: Practicing JavaScript</h2>
+    <button id="vanish" onclick="bippity()">Make it disappear</button>
+    <br>    
+    <p id="info">Just pretend a whole lot of important information is written on this and we actually care what is written.</p>
+    <br>
+    
+    <div class="heain">
+        <input type="text" id="texy" placeholder="Type to Change the Text.....">
+        <button id="sub" onclick="hea()">Submit</button>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div id="sizeChanger">
+        <div id="contain"></div>
+        <div id="width-changer">
+            <label for="box-width">Change Box Width: </label>
+            <input type="range" id="box-width" name="range-slider" min="100" max="1000" oninput="adjustBoxSize()">
+        </div>
+    </div>
+
+    <div id="imgChanger">
+        <img id="imgChoice" src="" alt="Selected Image">
+        <br>
+        <br>
+        <br>
+        <label for="dropdown">Choose Image</label>
+        <select name="dropdown-menu" id="dropdown" onchange="chooseImage()">
+            <option value="">Select an Image</option>
+            <option value="./image1.1.jpg">Option 1</option>
+            <option value="./image1.2.jpg">Option 2</option>
+            <option value="./image1.3.png">Option 3</option>
+        </select>
+    </div>
+</body>
+</html>
