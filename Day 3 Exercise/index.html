@@ -5,35 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
-    <script src=""></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;700&display=swap" rel="stylesheet">
     <title>Day 3 Exercise 2</title>
 </head>
 <body>
     <div class="header">
-        <h1>Studio - Coding for Web </h1>
+        <h2>Day 3 Exercise 2: Practicing JavaScript</h2>
     </div>
-
-    <h2>Day 3 Exercise 2: Practicing JavaScript</h2>
-    <button id="vanish" onclick="bippity()">Make it disappear</button>
+    <hr class="line1">
+    <button id="vanish" onclick="bippity()">
+        Make it disappear            
+    </button>
     <br>    
-    <p id="info">Just pretend a whole lot of important information is written on this and we actually care what is written.</p>
-    <br>
+
+    
     
     <div class="heain">
-        <input type="text" id="texy" placeholder="Type to Change the Text.....">
-        <button id="sub" onclick="hea()">Submit</button>
+        <div class="info">
+            <p id="info-text">
+                Some say the world will end in fire, <br>
+                Some say in ice. <br>
+                From what I’ve tasted of desire <br>
+                I hold with those who favor fire. <br>
+                But if it had to perish twice, <br>
+                I think I know enough of hate <br>
+                To say that for destruction ice <br>
+                Is also great <br>
+                And would suffice.
+            </p>
+            <input type="text" id="texy" placeholder="Type to Change the Text.....">
+            <button id="sub" onclick="hea()">Submit</button>
+        </div>
+    
+        <div class="font-options">
+            <input type="radio" id="font1" name="fontoption" value="cursive" oninput="fontchoice1()">
+            <label for="font1">Option 1</label>
+    
+            <input type="radio" id="font2" name="fontoption" value="sans-serif" oninput="fontchoice2()">
+            <label for="font2">Option 2</label>
+    
+            <input type="radio" id="font3" name="fontoption" value="serif" oninput="fontchoice3()">
+            <label for="font3">Option 3</label>
+        </div>
     </div>
-
-    <br>
-    <br>
-    <br>
-    <br>
-
+    
     <div id="sizeChanger">
         <div id="contain"></div>
         <div id="width-changer">
             <label for="box-width">Change Box Width: </label>
-            <input type="range" id="box-width" name="range-slider" min="100" max="1000" oninput="adjustBoxSize()">
+            <input type="range" id="box-width" name="range-slider" min="100" max="800" oninput="adjustBoxSize()">
         </div>
     </div>
 
