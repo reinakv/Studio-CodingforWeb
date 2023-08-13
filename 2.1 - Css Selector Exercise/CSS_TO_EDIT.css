@@ -1,0 +1,85 @@
+/* ADD YOUR TARGET SELECTORS HERE */
+/* ----------------------------------------------------- */
+
+section {
+    margin-bottom: 20px;
+}
+
+section:nth-of-type(2) {
+    margin-top: 20px;
+}
+
+div {
+    padding-top: 20px;
+    background-color: lightgray; 
+}
+
+section,
+div {
+    padding-bottom: 5px;
+}
+
+body {
+    font-size: 16px;
+}
+
+div p {
+    font-size: 20px;
+}
+
+section:nth-of-type(2) p:not(:first-child) {
+    text-indent: 40px;
+}
+
+ul:nth-of-type(1) li:nth-of-type(2) {
+    text-decoration: underline; 
+}
+
+ul:nth-of-type(1) li:nth-of-type(2):hover {
+    text-decoration: line-through;
+}
+
+
+section:nth-of-type(3):hover + section:nth-of-type(4) {
+    background-color: lightblue; 
+}
+
+/* SOME CSS PROPERTIES YOU COULD USE
+
+{
+    margin: 20px;
+    margin: 20%;
+
+    margin-left: ;
+    margin-right: ;
+
+    padding-left: 20px;
+    padding-right: 20%;
+    padding: 0 50px;
+    padding: 10px 30px 50px 70px;
+
+    border-width: ;
+    border-style: ;
+    border-color: ;
+    border: 
+
+    font-size: ;
+    line-height: ;
+    letter-spacing: ;
+
+    text-transform: lowercase;
+    text-indent 20px;
+    columns: 2;
+    column-gap:;
+
+    text-decoration:;
+    text-decoration-line: ;
+    
+    list-style: ;
+}
+
+*/
+
+
+
+
