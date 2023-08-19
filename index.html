@@ -7,92 +7,110 @@
   <!--Loading the fonts-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600&display=swap" rel="stylesheet">
+  <script src="script.js"></script>
 
   <link rel="stylesheet" href="style.css">
-  <title>Semester 5: Cycle 1</title>
+  <title>Annie Vaithara</title>
 </head>
 <header class="header-container">
   <h2 class="heading1">
     Studio - Coding for Web
   </h2>
   <h3 class="name">
+    Semester 5: Cycle 1 <br>
     Annie Vaithara
   </h3>
 </header>
-<hr class="line1">
+<hr>
 <body>
-  <div id="container1">
-    <h3 class="heading2">Tasks</h3>
-  </div>
-  <div id="exercises">
-    <ul>
-      <li>
-        <a href="https://reinakv.github.io/Studio-CodingforWeb/exercise1/exercise1.html">
-          Exercise 1
-        </a>
-        <p>
-          Split Screen Webpage
-        </p>
-      </li>
-      <li>
-        <a href="https://reinakv.github.io/Studio-CodingforWeb/2.1%20-%20Css%20Selector%20Exercise/index.html">
-          Exercise 2
-        </a>
-        <p>
-          CSS Selectors
-        </p>
-      </li>
-      <li>
-        <a href="https://reinakv.github.io/Studio-CodingforWeb//Day%203%20Exercise/index.html">
-          Exercise 3
-        </a>
-        <p>
-          JavaScript Practice
-        </p>
-      </li>
-      <li>
-        <a href="https://reinakv.github.io/Studio-CodingforWeb/5.1%20-%20CSS%20Positions/index.html">
-          Exercise 4
-        </a>
-        <p>
-          CSS Positions Exercise
-        </p>
-      </li>
-    </ul>
-  </div>
 
+  <div id="display">
+    <div id="assignments">
+      <div id="container1">
+        <h3 class="heading2">Assignments</h3>
+      </div>
+      <ul class="exercise-list">
+        <li id="assignment1">
+          <a href="https://reinakv.github.io/Studio-CodingforWeb/A1%20Assignment/index.html">
+            # Assignment 1
+          </a>
+          <p>
+          Good Morning Message Maker
+          </p>
+        </li>
+        <li id="assignment2">
+          <a href="">
+            # Assignment 2
+          </a>
+          <p></p>
+        </li>
+        <li id="assignment3">
+          <a href="">
+            # Assignment 3
+          </a>
+          <p><p>
+        </li>
+      </ul>
+    </div>
 
-  <div id="container1">
-    <h3 class="heading3">Assignments</h3>
+    <div id="tasks">
+      <h3 class="heading3">Daily Tasks <hr></h3>
+      <ul class="exercise-list2">
+        <li>
+          <div class="exercise" style="cursor: pointer;" onclick="redirectToURL('https://reinakv.github.io/Studio-CodingforWeb/exercise1/exercise1.html')">
+            <p class="description">
+              Exercise 1: Split Screen Webpage
+            </p>
+          </div>
+          <p class="date">
+            Monday - 07.08.23
+          </p>
+        </li>
+        <li>
+          <div class="exercise" style="cursor: pointer;" onclick="redirectToURL('https://reinakv.github.io/Studio-CodingforWeb/2.1%20-%20Css%20Selector%20Exercise/index.html')">
+            <p class="description">
+              Exercise 2: CSS Selectors
+            </p>
+          </div>
+          <p class="date">
+            Tuesday - 08.08.23 
+          </p>
+        </li>
+        <li>
+          <div class="exercise" style="cursor: pointer;" onclick="redirectToURL('https://reinakv.github.io/Studio-CodingforWeb//Day%203%20Exercise/index.html')">
+            <p class="description">
+              Exercise 3: JavaScript Practice
+            </p>
+          </div>
+          <p class="date">
+            Thursday - 10.08.23
+          </p>
+        </li>
+        <li>
+          <div class="exercise" style="cursor: pointer;" onclick="redirectToURL('https://reinakv.github.io/Studio-CodingforWeb/5.1%20-%20CSS%20Positions/index.html')">
+            <p class="description">
+              Exercise 4: CSS Layouts
+            </p>
+          </div>
+          <p class="date">
+            Monday - 14.08.23
+          </p>
+        </li>
+        <li>
+          <div class="exercise" style="cursor: pointer;" onclick="redirectToURL('https://reinakv.github.io/Studio-CodingforWeb/6.1%20CSS%20Responsive/index.html')">
+            <p class="description">
+              Exercise 5: CSS Responsive Layouts
+            </p>
+          </div>
+          <p class="date">
+            Thursday - 17.08.23
+          </p>
+        </li>
+      </ul>
+    </div>
+
   </div>
-  <div>
-    <ul id="assignment-list">
-      <li id="assignment1">
-        <a href="https://reinakv.github.io/Studio-CodingforWeb/A1%20Assignment/index.html">
-          # Assignment 1
-        </a>
-        <p>
-          The A1 task for the Studio is a "Good Morning Message Maker". It focuses mainly on the aspects of JavaScript interactions being used on the webpage. From picking an image to adding a custom text, the webpage relies on JS script.
-        </p>
-      </li>
-      <li id="assignment2">
-        <a href="">
-          # Assignment 2
-        </a>
-        <p>
-          
-        </p>
-      </li>
-      <li id="assignment3">
-        <a href="">
-          # Assignment 3
-        </a>
-        <p>
-          
-        <p>
-      </li>
-    </ul>
-  </div>
+  
 </body>
 </html>
