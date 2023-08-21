@@ -144,7 +144,8 @@ hr{
     font-size: 20px;
 }
 
-#assignment1 a{
+#assignment1 a,
+#assignment2 a{
     color: #2be4ea;
     font-weight: 500;
 }
