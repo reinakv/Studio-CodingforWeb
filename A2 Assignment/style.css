@@ -671,7 +671,7 @@ footer p{
     }
 }
 
-@media screen and (min-width: 370px) and (max-width: 900px) {
+@media screen and (min-width: 300px) and (max-width: 900px) {
     
     html{
         padding: 0px;
