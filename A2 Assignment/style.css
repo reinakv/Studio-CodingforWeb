@@ -61,445 +61,446 @@ header h1{
     color: #fa0a3a;
 }
 
-#logo-container img{
-    height: 90px;
-}
-
-.word1{
-    font-size: 10px;
-    margin-top: -6px;
-}
-
-.word2{
-    font-size: 15px;
-    margin-top: -2px;
-}
-
-#learn-letters{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.letter-container{
-    width: 23.945%;
-    border: 3px solid #a9486d;
-    padding: 5px;
-}
-
-.letter-container div{
-    display: flex;
-    flex-direction: row;
-}
-
-.depic p{
-    font-size: 250px;
-    margin-top: -20px;
-    font-weight: normal;
-}
-
-.object{
-    width: auto;
-    height: 220px;
-    margin-left: 25px;
-}
-
-.descrip{
-    margin-top: -320px;
-    margin-left: 10px;
-    align-items: center;
-}
-
-.letter{
-    font-size: 60px;
-}
-
-.object-name{
-    font-size: 40px;
-}
-
-.hindi{
-    font: '7surendra';
-    font-size: 15px;
-}
-
-.letter-a .depic p {
-    color: #466d48; 
-}
-
-.letter-a .letter{
-    color: #466d48;
-}
-
-.letter-b .depic p {
-    color: #5984af; 
-}
-
-.letter-b .letter{
-    color: #5984af;
-}
-
-.letter-b img{
-    margin-left: 0px;
-}
-
-.letter-c .depic p {
-    color: #a74357; 
-}
-
-.letter-c .letter{
-    color: #a74357;
-}
-
-.letter-c img{
-    margin-left: -10px;
-}
-
-.letter-d .depic p {
-    color: #8d3f67; 
-}
-
-.letter-d .letter{
-    color: #8d3f67;
-}
-
-.letter-d img{
-    margin-top: 30px;
-    margin-left: -10px;
-    height: 200px;
-}
-
-.letter-e .depic p {
-    color: #5984af; 
-}
-
-.letter-e .letter{
-    color: #5984af;
-}
-
-.letter-e img{
-    margin-left: 0px;
-}
-
-.letter-f .depic p {
-    color: #8d3f67; 
-}
-
-.letter-f .letter{
-    color: #8d3f67;
-}
-
-.letter-f img{
-    margin-left: -15px;
-}
-
-.letter-g .depic p {
-    color: #b25780; 
-}
-
-.letter-g .letter{
-    color: #b25780;
-}
-
-.letter-g img{
-    margin-left: -15px;
-}
-
-.letter-h .depic p {
-    color: #466d48; 
-}
-
-.letter-h .letter{
-    color: #466d48;
-}
-
-.letter-h img{
-    margin-left: -15px;
-}
-
-.letter-i .depic p {
-    color: #466d48; 
-}
-
-.letter-i .letter{
-    color: #466d48;
-}
-
-.letter-i img{
-    margin-left: 20px;
-}
-
-.letter-j .depic p {
-    color: #b25780; 
-}
-
-.letter-j .letter{
-    color: #b25780;
-}
-
-.letter-j img{
-    margin-left: -15px;
-}
-
-.letter-k .depic p {
-    color: #a74357; 
-}
-
-.letter-k .letter{
-    color: #a74357;
-}
-
-.letter-k img{
-    margin-left: 0px;
-}
-
-.letter-l .depic p {
-    color: #5984af; 
-}
-
-.letter-l .letter{
-    color: #5984af;
-}
-
-.letter-l img{
-    margin-left: -10px;
-}
-
-.letter-m .depic p {
-    color: #b25780; 
-}
-
-.letter-m .letter{
-    color: #b25780;
-}
-
-.letter-m img{
-    height: 200px;
-    margin-top: 15px;
-    margin-left: -20px;
-}
-
-.letter-n .depic p {
-    color: #466d48; 
-}
-
-.letter-n .letter{
-    color: #466d48;
-}
-
-.letter-n img{
-    margin-left: -15px;
-}
-
-.letter-o .depic p {
-    color: #5984af; 
-}
-
-.letter-o .letter{
-    color: #5984af;
-}
-
-.letter-o img{
-    margin-left: 0px;
-}
-
-.letter-p .depic p {
-    color: #b25780; 
-}
-
-.letter-p .letter{
-    color: #b25780;
-}
-
-.letter-p img{
-    height: 200px;
-    margin-top: 15px;
-    margin-left: 0px;
-}
-
-.letter-q .depic p {
-    color: #466d48; 
-}
-
-.letter-q .letter{
-    color: #466d48;
-}
-
-.letter-q img{
-    margin-left: 0px;
-}
-
-.letter-r .depic p {
-    color: #b25780; 
-}
-
-.letter-r .letter{
-    color: #b25780;
-}
-
-.letter-r img{
-    margin-left: 0px;
-}
-
-.letter-s .depic p {
-    color: #a74357; 
-}
-
-.letter-s .letter{
-    color: #a74357;
-}
-
-.letter-s img{
-    margin-left: 0px;
-}
-
-.letter-t .depic p {
-    color: #5984af; 
-}
-
-.letter-t .letter{
-    color: #5984af;
-}
-
-.letter-t img{
-    height: 200px;
-    margin-left: -40px;
-}
-
-.letter-u,
-.letter-v,
-.letter-w,
-.letter-x,
-.letter-y,
-.letter-z{
-    width: 32.28%;
-}
-.letter-u .depic p {
-    color: #5984af; 
-}
-
-.letter-u .letter{
-    color: #5984af;
-}
-
-.letter-u img{
-    margin-left: 40px;
-}
-
-.letter-v .depic p {
-    color: #466d48; 
-}
-
-.letter-v .letter{
-    color: #466d48;
-}
-
-.letter-v img{
-    margin-left: 40px;
-}
-
-.letter-w .depic p {
-    color: #8d3f67; 
-}
-
-.letter-w .letter{
-    color: #8d3f67;
-}
-
-.letter-w img{
-    margin-left: 40px;
-}
-
-.letter-x .depic p {
-    color: #466d48; 
-}
-
-.letter-x .letter{
-    color: #466d48;
-}
-
-.letter-x img{
-    margin-left: 20px;
-}
-
-.letter-y .depic p {
-    color: #a74357; 
-}
-
-.letter-y .letter{
-    color: #a74357;
-}
-
-.letter-y img{
-    margin-left: 50px;
-}
-
-.letter-z .depic p {
-    color: #5984af; 
-}
-
-.letter-z .letter{
-    color: #5984af;
-}
-
-.letter-z img{
-    margin-left: 50px;
-}
-
-#letter-display{
-    margin: 0;
-    font-family: 'Brush';
-    text-align: center;
-    font-size: 54px;
-    width: 100%;
-}
-
-#letter-display p{
-    border: 3px solid #a9486d;
-    background-color: #e5f71e;
-    color: #2f8dec;
-}
-
-.uppercase{
-    margin: 0px;
-}
-
-.lowercase{
-    margin: 0px;
-    letter-spacing: 9px;
-    padding: 3px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-footer{
-    display: flex;
-    justify-content: space-between;
-    padding: 0 10px;
-    background-color: #a9486d;
-    text-align: center; 
-    font-size: 1.5em;
-    color: #fff;
-}
-
-footer p{
-    position: relative;
-    top: 5px;
-}
-
-.Email{  
-    font-size: 20px;
-    margin: auto;
-    margin-right: 5px;
-}
-
-.price{
-    text-align: right;
-    margin-top: 5px;
-    margin-right: 20px;
-    font-size: 25px;
-}
-
+    #logo-container img{
+        height: 90px;
+    }
+
+    .word1{
+        font-size: 10px;
+        margin-top: -6px;
+    }
+
+    .word2{
+        font-size: 15px;
+        margin-top: -2px;
+    }
+
+    #learn-letters{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .letter-container{
+        width: 23.945%;
+        border: 3px solid #a9486d;
+        padding: 5px;
+    }
+
+    .letter-container div{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .depic p{
+        font-size: 250px;
+        margin-top: -20px;
+        font-weight: normal;
+    }
+
+    .object{
+        width: auto;
+        height: 220px;
+        margin-left: 25px;
+    }
+
+    .descrip{
+        margin-top: -320px;
+        margin-left: 10px;
+        align-items: center;
+    }
+
+    .letter{
+        font-size: 60px;
+    }
+
+    .object-name{
+        font-size: 40px;
+    }
+
+    .hindi{
+        font: '7surendra';
+        font-size: 15px;
+    }
+
+    .letter-a .depic p {
+        color: #466d48; 
+    }
+
+    .letter-a .letter{
+        color: #466d48;
+    }
+
+    .letter-b .depic p {
+        color: #5984af; 
+    }
+
+    .letter-b .letter{
+        color: #5984af;
+    }
+
+    .letter-b img{
+        margin-left: 0px;
+    }
+
+    .letter-c .depic p {
+        color: #a74357; 
+    }
+
+    .letter-c .letter{
+        color: #a74357;
+    }
+
+    .letter-c img{
+        margin-left: -10px;
+    }
+
+    .letter-d .depic p {
+        color: #8d3f67; 
+    }
+
+    .letter-d .letter{
+        color: #8d3f67;
+    }
+
+    .letter-d img{
+        margin-top: 30px;
+        margin-left: -10px;
+        height: 200px;
+    }
+
+    .letter-e .depic p {
+        color: #5984af; 
+    }
+
+    .letter-e .letter{
+        color: #5984af;
+    }
+
+    .letter-e img{
+        margin-left: 0px;
+    }
+
+    .letter-f .depic p {
+        color: #8d3f67; 
+    }
+
+    .letter-f .letter{
+        color: #8d3f67;
+    }
+
+    .letter-f img{
+        margin-left: -15px;
+    }
+
+    .letter-g .depic p {
+        color: #b25780; 
+    }
+
+    .letter-g .letter{
+        color: #b25780;
+    }
+
+    .letter-g img{
+        margin-left: -15px;
+    }
+
+    .letter-h .depic p {
+        color: #466d48; 
+    }
+
+    .letter-h .letter{
+        color: #466d48;
+    }
+
+    .letter-h img{
+        margin-left: -15px;
+    }
+
+    .letter-i .depic p {
+        color: #466d48; 
+    }
+
+    .letter-i .letter{
+        color: #466d48;
+    }
+
+    .letter-i img{
+        margin-left: 20px;
+    }
+
+    .letter-j .depic p {
+        color: #b25780; 
+    }
+
+    .letter-j .letter{
+        color: #b25780;
+    }
+
+    .letter-j img{
+        margin-left: -15px;
+    }
+
+    .letter-k .depic p {
+        color: #a74357; 
+    }
+
+    .letter-k .letter{
+        color: #a74357;
+    }
+
+    .letter-k img{
+        margin-left: 0px;
+    }
+
+    .letter-l .depic p {
+        color: #5984af; 
+    }
+
+    .letter-l .letter{
+        color: #5984af;
+    }
+
+    .letter-l img{
+        margin-left: -10px;
+    }
+
+    .letter-m .depic p {
+        color: #b25780; 
+    }
+
+    .letter-m .letter{
+        color: #b25780;
+    }
+
+    .letter-m img{
+        height: 200px;
+        margin-top: 15px;
+        margin-left: -20px;
+    }
+
+    .letter-n .depic p {
+        color: #466d48; 
+    }
+
+    .letter-n .letter{
+        color: #466d48;
+    }
+
+    .letter-n img{
+        margin-left: -15px;
+    }
+
+    .letter-o .depic p {
+        color: #5984af; 
+    }
+
+    .letter-o .letter{
+        color: #5984af;
+    }
+
+    .letter-o img{
+        margin-left: 0px;
+    }
+
+    .letter-p .depic p {
+        color: #b25780; 
+    }
+
+    .letter-p .letter{
+        color: #b25780;
+    }
+
+    .letter-p img{
+        height: 200px;
+        margin-top: 15px;
+        margin-left: 0px;
+    }
+
+    .letter-q .depic p {
+        color: #466d48; 
+    }
+
+    .letter-q .letter{
+        color: #466d48;
+    }
+
+    .letter-q img{
+        margin-left: 0px;
+    }
+
+    .letter-r .depic p {
+        color: #b25780; 
+    }
+
+    .letter-r .letter{
+        color: #b25780;
+    }
+
+    .letter-r img{
+        margin-left: 0px;
+    }
+
+    .letter-s .depic p {
+        color: #a74357; 
+    }
+
+    .letter-s .letter{
+        color: #a74357;
+    }
+
+    .letter-s img{
+        margin-left: 0px;
+    }
+
+    .letter-t .depic p {
+        color: #5984af; 
+    }
+
+    .letter-t .letter{
+        color: #5984af;
+    }
+
+    .letter-t img{
+        height: 200px;
+        margin-left: -40px;
+    }
+
+    .letter-u,
+    .letter-v,
+    .letter-w,
+    .letter-x,
+    .letter-y,
+    .letter-z{
+        width: 32.28%;
+    }
+    .letter-u .depic p {
+        color: #5984af; 
+    }
+
+    .letter-u .letter{
+        color: #5984af;
+    }
+
+    .letter-u img{
+        margin-left: 40px;
+    }
+
+    .letter-v .depic p {
+        color: #466d48; 
+    }
+
+    .letter-v .letter{
+        color: #466d48;
+    }
+
+    .letter-v img{
+        margin-left: 40px;
+    }
+
+    .letter-w .depic p {
+        color: #8d3f67; 
+    }
+
+    .letter-w .letter{
+        color: #8d3f67;
+    }
+
+    .letter-w img{
+        margin-left: 40px;
+    }
+
+    .letter-x .depic p {
+        color: #466d48; 
+    }
+
+    .letter-x .letter{
+        color: #466d48;
+    }
+
+    .letter-x img{
+        margin-left: 20px;
+    }
+
+    .letter-y .depic p {
+        color: #a74357; 
+    }
+
+    .letter-y .letter{
+        color: #a74357;
+    }
+
+    .letter-y img{
+        margin-left: 50px;
+    }
+
+    .letter-z .depic p {
+        color: #5984af; 
+    }
+
+    .letter-z .letter{
+        color: #5984af;
+    }
+
+    .letter-z img{
+        margin-left: 50px;
+    }
+
+    #letter-display{
+        margin: 0;
+        font-family: 'Brush';
+        text-align: center;
+        font-size: 54px;
+        width: 100%;
+    }
+
+    #letter-display p{
+        border: 3px solid #a9486d;
+        background-color: #e5f71e;
+        color: #2f8dec;
+    }
+
+    .uppercase{
+        margin: 0px;
+    }
+
+    .lowercase{
+        margin: 0px;
+        letter-spacing: 9px;
+        padding: 3px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    footer{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 10px;
+        background-color: #a9486d;
+        text-align: center; 
+        font-size: 1.5em;
+        color: #fff;
+    }
+
+    footer p{
+        position: relative;
+        top: 5px;
+    }
+
+    .Email{  
+        font-size: 20px;
+        margin: auto;
+        margin-right: 5px;
+    }
+
+    .price{
+        text-align: right;
+        margin-top: 5px;
+        margin-right: 20px;
+        font-size: 25px;
+    }
+
+    
 @media screen and (min-width: 900px) and (max-width: 1024px) {
     header{
         height: 150px;
@@ -529,7 +530,7 @@ footer p{
     .word1{
         font-size: 10px;
         margin-top: -6px;
-        ;
+
     }
     
     .word2{
@@ -671,7 +672,7 @@ footer p{
     }
 }
 
-@media screen and (min-width: 300px) and (max-width: 900px) {
+@media screen and (min-width: 370px) and (max-width: 900px) {
     
     html{
         padding: 0px;
