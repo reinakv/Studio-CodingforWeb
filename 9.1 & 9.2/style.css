@@ -1,0 +1,50 @@
+html{
+    background-color: rgb(25, 26, 30);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.contain{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#div1{
+    background-color: #bc0028;
+    width: 400px;
+    height: 450px;
+    visibility: hidden;
+    padding: 20px;
+    box-shadow: 5px 10px 20px 5px rgb(25, 26, 30, 0.5) inset;
+}
+
+#btn1,
+#btn2{
+    width: 150px;
+    height: 40px;
+    margin-right: 20px;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
+    background-color: #02e1ef;
+}
+
+#div2{
+    margin-top: 20px;
+    background-color: #bc0028;
+    width: 90%;
+    height: 100px;
+    visibility: hidden;
+    padding: 20px;
+    box-shadow: 5px 10px 20px 5px rgb(25, 26, 30, 0.5) inset;
+}
+
+#close1,
+#close2{
+    float: right;
+    background-color: #02e1ef;
+    color: #191A1E;
+    font-weight: 600;
+}
