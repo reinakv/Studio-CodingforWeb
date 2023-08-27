@@ -1,19 +1,26 @@
 html,
 body{
-    background-color: #191a1e;
-    background-image: radial-gradient(ellipse at 32% 30%,#461616 0%, transparent 75%);
+    background-color: rgb(25, 26, 30, 0.8);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    height: 100%;
     margin: 0;
     padding: 0;
     font-family: 'Rajdhani', sans-serif;
-    color: #E8615A;
+    color: #bc0028;
 }
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    max-width: 100%;
+    min-height: 100%;
+    z-index: -5;
+  }
 
 a{
     text-decoration: none;
-    color: #e8615a;
+    color: #bc0028;
     font-size: 26px;
 }
 
@@ -26,8 +33,8 @@ hr{
     margin-top: 10px;
     border: none;
     height: 1.5px;
-    background-color: #e8615a;
-    box-shadow: 0px 1px 8px rgba(232, 97, 90, 0.6);
+    background-color: #bc0028;
+    box-shadow: 1px 1px 8px #bc0028;
 }
 
 .header-container {
@@ -39,70 +46,89 @@ hr{
 
 .heading1 {
     font-family: 'Rajdhani', sans-serif;
-    color: #E8615A;
+    color: #bc0028;
     margin-left: 40px;
     font-weight: 600;
     font-size: 30px;
-    text-shadow: 0px 1px 18px rgba(232, 97, 90, 0.5);
-    animation: glitch 5s steps(100) infinite;
+    text-shadow: 0px 1px 18px #bc0028;
+    animation: glitch 15s steps(100) infinite;
 }
+
+/* Scroll Bar*/
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 10px #191A1E;
+    border-radius: 10px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #bc0028;
+    box-shadow: inset 0 0 10px #191A1E;
+    border-radius: 10px;
+  }
 
 /* GLITCH EFFECT */
 @keyframes glitch {
-    0% {text-shadow: 1px 0 0 #fed33f, -1px 0 0 #2be4ea;}
-    4% {text-shadow: 1px 0 0 #fed33f, -1px 0 0 #2be4ea;}
-    5% {text-shadow: -1px 0 0 #fed33f, 1px 0 0 #2be4ea;}
-    10% {text-shadow: -1px 0 0 #fed33f, 1px 0 0 #2be4ea;}
-    11% {text-shadow: 0.5px 0 0 #fed33f, -0.5px 0 0 #191A1E;}
-    15% {text-shadow: 0.5px 0 0 #fed33f, -0.5px 0 0 #191A1E;}
-    16% {text-shadow: -1px 0 0 #fed33f, 1px 0 0 #191A1E;}
-    20% {text-shadow: -1px 0 0 #fed33f, 1px 0 0 #191A1E;}
-    21% {text-shadow: 0.7px 0 0 #2be4ea, -0.7px 0 0 #191A1E;}
-    30% {text-shadow: 0.7px 0 0 #2be4ea, -0.7px 0 0 #191A1E;}
-    31% {text-shadow: -1px 0 0 #2be4ea, 1px 0 0 #191A1E;}
-    40% {text-shadow: -1px 0 0 #2be4ea, 1px 0 0 #191A1E;}
-    41% {text-shadow: 50px 0 0 #2be4ea, -50px 0 0 #191A1E;}
-    42% {text-shadow: 0 0 0 #2be4ea, 0 0 0 #191A1E;}
-    43% {text-shadow: 0.5px 0 0 #fed33f, -0.5px 0 0 #191A1E;}
-    46% {text-shadow: 0.5px 0 0 #fed33f, -0.5px 0 0 #191A1E;}
-    47% {text-shadow: -1px 0 0 #fed33f, 1px 0 0 #191A1E;}
-    50% {text-shadow: -1px 0 0 #fed33f, 1px 0 0 #191A1E;}
-    51% {text-shadow: 1px 0 0 #fed33f, -1px 0 0 #2be4ea;}
-    55% {text-shadow: 1px 0 0 #fed33f, -1px 0 0 #2be4ea;}
-    56% {text-shadow: -1px 0 0 #fed33f, 1px 0 0 #2be4ea;}
-    60% {text-shadow: -1px 0 0 #fed33f, 1px 0 0 #2be4ea;}
-    61% {text-shadow: 30px 0 0 #fed33f, -30px 0 0 #191A1E;}
-    62% {text-shadow: 0 0 0 #fed33f, 0 0 0 #191A1E;}
-    63% {text-shadow: 0.5px 0 0 #fed33f, -0.5px 0 0 #2be4ea;}
-    66% {text-shadow: 0.5px 0 0 #fed33f, -0.5px 0 0 #2be4ea;}
-    67% {text-shadow: -1px 0 0 #fed33f, 1px 0 0 #2be4ea;}
-    70% {text-shadow: -1px 0 0 #fed33f, 1px 0 0 #2be4ea;}
-    71% {text-shadow: 70px 0 0 #fed33f, -70px 0 0 #2be4ea;}
-    72% {text-shadow: 0 0 0 #fed33f, 0 0 0 #2be4ea;}
-    73% {text-shadow: 1px 0 0 #fed33f, -1px 0 0 #2be4ea;}
-    76% {text-shadow: 1px 0 0 #fed33f, -1px 0 0 #2be4ea;}
-    77% {text-shadow: -1px 0 0 #fed33f, 1px 0 0 #2be4ea;}
-    80% {text-shadow: -1px 0 0 #fed33f, 1px 0 0 #2be4ea;}
-    81% {text-shadow: 0.5px 0 0 #fed33f, -0.5px 0 0 #191A1E;}
-    85% {text-shadow: 0.5px 0 0 #fed33f, -0.5px 0 0 #191A1E;}
-    86% {text-shadow: -1px 0 0 #fed33f, 1px 0 0 #191A1E;}
-    90% {text-shadow: -1px 0 0 #fed33f, 1px 0 0 #191A1E;}
-    91% {text-shadow: 60px 0 0 #191A1E, -60px 0 0 #2be4ea;}
-    92% {text-shadow: 0 0 0 #191A1E, 0 0 0 #2be4ea;}
-    92% {text-shadow: 0.7px 0 0 #2be4ea, -0.7px 0 0 #191A1E;}
-    95% {text-shadow: 0.7px 0 0 #2be4ea, -0.7px 0 0 #191A1E;}
-    96% {text-shadow: -1px 0 0 #2be4ea, 1px 0 0 #191A1E;}
-    99% {text-shadow: -1px 0 0 #2be4ea, 1px 0 0 #191A1E;}
-    100% {text-shadow: -1px 0 0 #2be4ea, 1px 0 0 #191A1E;}
+    0% {text-shadow: 1px 0 0 #02e1ef, -1px 0 0 #ab28de;}
+    4% {text-shadow: 1px 0 0 #02e1ef, -1px 0 0 #ab28de;}
+    5% {text-shadow: -1px 0 0 #02e1ef, 1px 0 0 #ab28de;}
+    10% {text-shadow: -1px 0 0 #02e1ef, 1px 0 0 #ab28de;}
+    11% {text-shadow: 0.5px 0 0 #02e1ef, -0.5px 0 0 #191A1E;}
+    15% {text-shadow: 0.5px 0 0 #02e1ef, -0.5px 0 0 #191A1E;}
+    16% {text-shadow: -1px 0 0 #02e1ef, 1px 0 0 #191A1E;}
+    20% {text-shadow: -1px 0 0 #02e1ef, 1px 0 0 #191A1E;}
+    21% {text-shadow: 0.7px 0 0 #ab28de, -0.7px 0 0 #191A1E;}
+    30% {text-shadow: 0.7px 0 0 #ab28de, -0.7px 0 0 #191A1E;}
+    31% {text-shadow: -1px 0 0 #ab28de, 1px 0 0 #191A1E;}
+    40% {text-shadow: -1px 0 0 #ab28de, 1px 0 0 #191A1E;}
+    41% {text-shadow: 50px 0 0 #ab28de, -50px 0 0 #191A1E;}
+    42% {text-shadow: 0 0 0 #ab28de, 0 0 0 #191A1E;}
+    43% {text-shadow: 0.5px 0 0 #02e1ef, -0.5px 0 0 #191A1E;}
+    46% {text-shadow: 0.5px 0 0 #02e1ef, -0.5px 0 0 #191A1E;}
+    47% {text-shadow: -1px 0 0 #02e1ef, 1px 0 0 #191A1E;}
+    50% {text-shadow: -1px 0 0 #02e1ef, 1px 0 0 #191A1E;}
+    51% {text-shadow: 1px 0 0 #02e1ef, -1px 0 0 #ab28de;}
+    55% {text-shadow: 1px 0 0 #02e1ef, -1px 0 0 #ab28de;}
+    56% {text-shadow: -1px 0 0 #02e1ef, 1px 0 0 #ab28de;}
+    60% {text-shadow: -1px 0 0 #02e1ef, 1px 0 0 #ab28de;}
+    61% {text-shadow: 30px 0 0 #02e1ef, -30px 0 0 #191A1E;}
+    62% {text-shadow: 0 0 0 #02e1ef, 0 0 0 #191A1E;}
+    63% {text-shadow: 0.5px 0 0 #02e1ef, -0.5px 0 0 #ab28de;}
+    66% {text-shadow: 0.5px 0 0 #02e1ef, -0.5px 0 0 #ab28de;}
+    67% {text-shadow: -1px 0 0 #02e1ef, 1px 0 0 #ab28de;}
+    70% {text-shadow: -1px 0 0 #02e1ef, 1px 0 0 #ab28de;}
+    71% {text-shadow: 70px 0 0 #02e1ef, -70px 0 0 #ab28de;}
+    72% {text-shadow: 0 0 0 #02e1ef, 0 0 0 #ab28de;}
+    73% {text-shadow: 1px 0 0 #02e1ef, -1px 0 0 #ab28de;}
+    76% {text-shadow: 1px 0 0 #02e1ef, -1px 0 0 #ab28de;}
+    77% {text-shadow: -1px 0 0 #02e1ef, 1px 0 0 #ab28de;}
+    80% {text-shadow: -1px 0 0 #02e1ef, 1px 0 0 #ab28de;}
+    81% {text-shadow: 0.5px 0 0 #02e1ef, -0.5px 0 0 #191A1E;}
+    85% {text-shadow: 0.5px 0 0 #02e1ef, -0.5px 0 0 #191A1E;}
+    86% {text-shadow: -1px 0 0 #02e1ef, 1px 0 0 #191A1E;}
+    90% {text-shadow: -1px 0 0 #02e1ef, 1px 0 0 #191A1E;}
+    91% {text-shadow: 60px 0 0 #191A1E, -60px 0 0 #ab28de;}
+    92% {text-shadow: 0 0 0 #191A1E, 0 0 0 #ab28de;}
+    92% {text-shadow: 0.7px 0 0 #ab28de, -0.7px 0 0 #191A1E;}
+    95% {text-shadow: 0.7px 0 0 #ab28de, -0.7px 0 0 #191A1E;}
+    96% {text-shadow: -1px 0 0 #ab28de, 1px 0 0 #191A1E;}
+    99% {text-shadow: -1px 0 0 #ab28de, 1px 0 0 #191A1E;}
+    100% {text-shadow: -1px 0 0 #ab28de, 1px 0 0 #191A1E;}
 }
 
 
 
 .name{
     margin-right: 40px;
-    font-weight: 400;
+    font-weight: 600;
     text-align: right;
-    text-shadow: 0px 1px 18px rgba(232, 97, 90, 0.7);
+    text-shadow: 0px 1px 20px #bc0028;
 }
 
 #display{
@@ -113,9 +139,9 @@ hr{
     background-color: #191A1E;
     margin-left: 40px;
     margin-top: 50px;
-    width: 250px;
+    width: 350px;
     height: 40px;
-    border: 1px solid #9C3230;
+    border: 1px solid #bc0028;
     box-shadow: 0px 1px 8px rgba(232, 97, 90, 0.2);
     display: flex;
     align-items: center; 
@@ -123,11 +149,11 @@ hr{
 
 .heading2{
     font-family: 'Rajdhani', sans-serif;
-    color: #E8615A;
+    color: #bc0028;
     margin-left: 15px;
     font-weight: 600;
     font-size: 20px;
-    color: #2be4ea;
+    color: #bc0028;
 }
 
 .exercise-list{
@@ -140,19 +166,29 @@ hr{
     margin-top: 5px;
 }
 
-#assignments a{
+#assignments p{
     font-size: 20px;
+    color: rgb(171, 40, 222, 0.5);
 }
 
 #assignment1 a,
 #assignment2 a{
-    color: #2be4ea;
+    margin-left: 30px;
+    color: #ab28de;
     font-weight: 500;
+    font-size: 20px;
+    text-shadow: 0px 1px 8px rgb(171, 40, 222, 0.7);
+}
+
+#assignment1 p,
+#assignment2 p{
+    color: #ab28de;
+    font-weight: 600;
 }
 
 #tasks{
     margin-left: 100px;
-    width: 600px;
+    width: 800px;
 }
 
 #tasks hr{
@@ -161,11 +197,11 @@ hr{
 
 .heading3{
     font-family: 'Rajdhani', sans-serif;
-    color: #E8615A;
+    color: #bc0028;
     margin-top: 50px;
     font-weight: 500;
     font-size: 30px;
-    text-shadow: 0px 1px 8px rgba(232, 97, 90, 0.5);
+    text-shadow: 1px 1px 18px #bc0028;
 }
 
 .exercise-list2{
@@ -173,18 +209,21 @@ hr{
     padding: 0;
     margin-left: 15px;
     margin-right: 15px;
+    overflow-y: scroll;
 }
 
 .exercise{
+    width: 95%;
     background-color: #191a1e;
     padding: 10px 15px 10px;
     margin-bottom: 50px;
-    border: 1px solid #fed33f;
-    color: #fed33f;
+    border: 1px solid #02e1ef;
+    color: #02e1ef;
+    box-shadow: 2px 1px 18px rgb(2, 225, 239, 0.3);
 }
 
 .exercise-list2 a{
-    color: #fed33f;
+    color: #02e1ef;
 }
 
 .description{
@@ -194,22 +233,9 @@ hr{
 }
 
 .date{
-    color: #fed33f;
+    color: #02e1ef;
     margin-top: -45px;
-    margin-right: 1px;
+    margin-right: 10px;
     text-align: right;
     font-size: 14px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
