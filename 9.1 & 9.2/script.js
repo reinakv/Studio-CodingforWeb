@@ -16,18 +16,18 @@ function bippity() {
 function boppity(){
     let btn2 = document.getElementById('btn2');
     let div2 = document.getElementById('div2');
-    let isVisible = (div2.style.visibility === "visible");
-    if (isVisible) {
+    let isInvisible = (div2.style.visibility === "hidden");
+    if (isInvisible) {
+        div2.style.visibility = 'visible'; 
+        btn2.innerHTML = "Make it disappear";
+    } else {
         div2.style.visibility = 'hidden';
         btn2.innerHTML = "Make it reappear";
-    } else {
-        div2.style.visibility = 'visible';
-        btn2.innerHTML = "Make it disappear";
     }
 }
 
-btn2.addEventListener("click", boppity);
 
+btn2.addEventListener("click", boppity);
 
 
 let clo = document.getElementsByClassName('clo');
@@ -37,13 +37,3 @@ for (let closeButton of clo) {
         closeButton.parentElement.style.visibility = "hidden";
     });
 }
-
-/*
-const cloButtons = document.getElementsByClassName("clo");
-var n;
-for (n = 0; n < cloButtons.length; n++) {
-    cloButtons[n].addEventListener("click", function() {
-        this.parentElement.style.visibility = "hidden";
-    });
-}
-*/
