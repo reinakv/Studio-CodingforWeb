@@ -1,0 +1,41 @@
+body
+|
+|_______header
+|       |
+|       |_____h1
+|       |
+|       |_____div
+|
+|
+|_______section class="gallery"
+|       |
+|       |___________div class="letter-container letter-`x`" id="letterX"  _ _ _ _ _ _ _ _ _ _ _
+|                  |_______div class="depic"                                                   |
+|                  |        |_____p                                                            |
+|                  |        |                                                                  |
+|                  |        |_____img                                                          |
+|                  |                                                                           |
+|                  |_______div class="descrip                                    Repeated 26 times for each letter  
+|                           |_____p class="letter"                                             |
+|                           |                                                                  |
+|                           |_____p class="object_name"                                        |
+|                           |                                                                  |
+|                           |_____p class="hindi"   _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _|
+|
+|
+|_______section  id="letter-display"
+|       |
+|       |_______p class="uppercase"
+|       |
+|       |_______p class="lowercase"
+|
+|
+|
+|_______footer
+|       |
+|       |_____p
+|       |
+|       |_____p class="Email"
+|
+|
+|_______p class="price"
