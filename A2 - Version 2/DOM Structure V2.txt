@@ -1,0 +1,26 @@
+body
+|
+|_______header
+|       |
+|       |_____h1
+|       |
+|       |_____div
+|
+|
+|_______section class="gallery"     {JSON - for loop}
+|
+|_______section  id="letter-display"
+|       |
+|       |_______p class="uppercase"
+|       |
+|       |_______p class="lowercase"
+|
+|
+|_______footer
+|       |
+|       |_____p
+|       |
+|       |_____p class="Email"
+|
+|
+|_______p class="price"
