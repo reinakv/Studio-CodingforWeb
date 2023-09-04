@@ -41,6 +41,7 @@ hr{
     display: flex; 
     justify-content: space-between; 
     align-items: center; 
+    height: 100px;
 }
 
 
@@ -133,6 +134,7 @@ hr{
 
 #display{
     display: flex;
+    height: calc(100vh - 120px);
 }
 
 #container1{
@@ -199,7 +201,7 @@ hr{
 
 
 #tasks{
-    margin-left: 100px;
+    margin-left: 150px;
     width: 800px;
 }
 
@@ -222,6 +224,7 @@ hr{
     margin-left: 15px;
     margin-right: 15px;
     overflow-y: scroll;
+    height: 450px;
 }
 
 .exercise{
