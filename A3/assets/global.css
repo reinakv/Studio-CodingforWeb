@@ -1,0 +1,106 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Satisfaction';
+    src: url('../fonts/Satisfaction.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Carla-Sans';
+    src: url('../fonts/CarlaSans.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Mina-Medium';
+    src: url('../fonts/Mina-Bold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Tungsten';
+    src: url('../fonts/Tungsten-Semibold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Taylor Swift Handwriting';
+    src: url('../fonts/Taylor\ Swift\ Handwriting.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'OldeEnglish';
+    src: url('../fonts/OldeEnglish.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Soulmate';
+    src: url('../fonts/Soulmate.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Im Fell Dw Pica';
+    src: url('../fonts/im-fell-dw-pica.italic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Neue Haas Grotesk Display Pro 65 Medium';
+    src: url('../fonts/Neue\ Haas\ Grotesk\ Display\ Pro\ 65\ Medium.ttf') format("truetype");
+}
+
+
+:root{
+    /* fonts */
+    --taylor-version-font: 'Carla-Sans';
+    --debut-font: 'Satisfaction';
+    --fearless-font: 'Carla-Sans';
+    --speak-now-font: 'Mina-Medium';
+    --red-font: 'Tungsten';
+    --1989-font: 'Taylor Swift Handwriting';
+    --reputation-font: 'OldeEnglish';
+    --lover-font: 'Soulmate';
+    --evermore-font: 'Im Fell Dw Pica';
+    --folklore-font: 'Im Fell Dw Pica';
+    --midnights-font: 'Neue Haas Grotesk Display Pro 65 Medium';
+
+    /* colours */
+    --debut-primary-colour: #7AC6BA;
+    --debut-secondary-colour: #328A9E;
+    --debut-accent-colour: #063742;
+
+    --fearless-primary-colour: #AE906C;
+    --fearless-secondary-colour: #593B30;
+    --fearless-accent-colour: #FDE0A3;
+
+    --speak-now-primary-colour: #944388;
+    --speak-now-secondary-colour: #FEFAFC;
+    --speak-now-accent-colour: #E389B4;
+
+    --red-primary-colour: #A21816;
+    --red-secondary-colour: #DB674F;
+    --red-accent-colour: #FFF4F2;
+
+    --1989-primary-colour: #043945;
+    --1989-secondary-colour: #98B4A8;
+    --1989-accent-colour: #D3C1AB;
+
+    --reputation-primary-colour: #120E0D;
+    --reputation-secondary-colour: #D9D9D9;
+    --reputation-accent-colour: #51685E;
+
+    --lover-primary-colour: #E1BFE0;
+    --lover-secondary-colour: #975B74;
+    --lover-accent-colour: #94BFEC;
+
+    --folklore-primary-colour: #565656;
+    --folklore-secondary-colour: #BCB9B9;
+    --folklore-accent-colour: #F2F1F1;
+
+    --evermore-primary-colour: #BC643C;
+    --evermore-secondary-colour: #623820;
+    --evermore-accent-colour: #DDD3D1;
+
+    --midnights-primary-colour: #04364F;
+    --midnights-secondary-colour: #6F7CB9;
+    --midnights-accent-colour: #B7836D;
+}

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/global.css">
+    <title>TS Eras Tour</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+    integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+    crossorigin=""/>
+
+    <style>
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+            height: calc(100% - 60px);
+            background-color: var(--1989-primary-colour);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .taylor-swift {
+            margin: 0;
+            position: absolute;
+            font-size: 30px;
+            font-weight: 400;
+            font-family: var(--taylor-version-font);
+            color: #000;
+            display: inline-block;
+            top: 10%;
+            left: 43%;
+        }
+        
+        .set-list,
+        .tour {
+            font-family: var(--taylor-version-font);
+            color: #000;
+            text-decoration: none;
+            position: absolute;
+            font-size: 15px;
+            left: 47px;
+            display: inline-block;
+            width: 100px;
+            height: 22px;
+        }
+        .set-list,
+        .tour {
+            left: 50px;
+            top: 30%;
+        }
+        .tour {
+            left: 190px;
+        }
+        header{
+            position: absolute;
+            background-color: var(--1989-secondary-colour);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            overflow: hidden;
+            z-index: 5;
+            top: 0;
+            height: 60px;
+            font-size: 10px;
+        }
+
+        #map {
+            margin-top: 120px;
+            width: 90vw;
+            height: 80vh;
+        }        
+    </style>
+</head>
+<body>
+    <header class="header" id="H" >
+        <a href="index.html">
+            <h1 class="taylor-swift" >Taylor Swift</h1>
+        </a>
+        <div id="links">
+          
+            <a href="setlist.html"  class="set-list" id="set list page">Set List</a>
+            <a href="map.html"   class="tour" id="tour page">Tour</a>
+        </div>
+      </header>
+    
+    <div id="map"></div>
+    
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+    integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+    crossorigin=""></script>
+    <script>
+        
+        var locations = [
+            ["Hard Rock Stadium - Miami, FL", 25.9583, -80.2396],
+            ["Caesars Superdome - New Orleans, LA", 29.9511, -90.0812],
+            ["Lucas Oil Stadium - Indianapolis, IN", 39.7601, -86.1639],
+            ["Estadio Monumental - Buenos Aires, Argentina", -34.5467, -58.4495],
+            ["Estádio Nilton Santos - Rio De Janeiro, Brazil", -22.8933, -43.2923],
+            ["Allianz Parque - São Paulo, Brazil", -23.5276, -46.6785],
+            ["Tokyo Dome - Tokyo, Japan", 35.7056, 139.7519],
+            ["Melbourne Cricket Ground - Melbourne, Australia", -37.8200, 144.9834],
+            ["Accor Stadium - Sydney, Australia", -33.8471, 151.0634],
+            ["National Stadium - Singapore, SG", 1.3040, 103.8748],
+            ["París La Défense Arena - Paris, France", 48.8947, 2.2297],
+            ["Friends Arena - Stockholm, Sweden", 59.3727, 18.0004],
+            ["Estádio do Sport Lisboa e Benfica - Lisbon, Portugal", 38.7527, -9.1847],
+            ["Santiago Bernabéu Stadium - Madrid, Spain", 40.453053, -3.688344],
+            ["Groupama Stadium - Lyon, France", 45.7653, 4.9820],
+            ["Scottish Gas Murrayfield Stadium - Edinburgh, United Kingdom", 55.9422, -3.2409],
+            ["Anfield Stadium - Liverpool, United Kingdom", 53.4308, -2.9608],
+            ["Principality Stadium - Cardiff, United Kingdom", 51.4782, -3.1826],
+            ["Wembley Stadium - London, United Kingdom", 51.5560, -0.2796],
+            ["Aviva Stadium - Dublin, Ireland", 53.3344, -6.2237],
+            ["Johan Cruyff Arena - Amsterdam, Netherlands", 52.314312, 4.941541],
+            ["Stadion Letzigrund - Zürich, Switzerland", 47.3827,  8.5038],
+            ["San Siro Stadium - Milan, Italy", 45.478489, 9.122150],
+            ["VELTINS-Arena - Gelsenkirchen, Germany", 51.5546, 7.0675],
+            ["Volksparkstadion - Hamburg, Germany", 53.5872, 9.8986],
+            ["Olympiastadion - Munich, Germany", 52.514610, 13.239665],
+            ["PGE Narodowy - Warsaw, Poland", 52.2393, 21.0451],
+            ["Ernst Happel Stadium - Vienna, Austria", 48.2072, 16.4210],
+            ["Rogers Centre - Toronto, ON", 43.641796, -79.390083]
+        ];
+        var map = L.map('map').setView([50.9583, -50.2396], 3);
+
+        var tiles = new L.tileLayer('https://stamen-tiles.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.jpg').addTo(map);
+
+        for (var i = 0; i < locations.length; i++) {
+            marker = new L.marker([locations[i][1], locations[i][2]])
+            .bindPopup(locations[i][0])
+            .addTo(map);
+        }
+    </script>
+</body>
+</html>
