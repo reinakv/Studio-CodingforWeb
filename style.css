@@ -193,7 +193,8 @@ hr{
 }
 
 #assignment1 p,
-#assignment2 p{
+#assignment2 p,
+#assignment3 p{
     color: #ab28de;
     font-weight: 600;
 }
